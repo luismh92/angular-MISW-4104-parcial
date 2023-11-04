@@ -203,7 +203,7 @@
   }
 
   .terminal pre {
-    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
     color: white;
     padding: 0 1rem 1rem;
     margin: 0;
@@ -247,16 +247,16 @@
     align-items: center;
     font-size: 12px;
     padding: 3px 10px;
-    border: 1px solid rgba(27,31,35,.2);
+    border: 1px solid rgba(27, 31, 35, .2);
     border-radius: 3px;
-    background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
+    background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);
     margin-left: 4px;
     font-weight: 600;
   }
 
   .github-star-badge:hover {
-    background-image: linear-gradient(-180deg,#f0f3f6,#e6ebf1 90%);
-    border-color: rgba(27,31,35,.35);
+    background-image: linear-gradient(-180deg, #f0f3f6, #e6ebf1 90%);
+    border-color: rgba(27, 31, 35, .35);
     background-position: -.5em;
   }
 
@@ -276,7 +276,8 @@
 
   /* Responsive Styles */
   @media screen and (max-width: 767px) {
-    .card-container > *:not(.circle-link) ,
+
+    .card-container>*:not(.circle-link),
     .terminal {
       width: 100%;
     }
@@ -303,7 +304,7 @@
     background-repeat: repeat-x;
   }
 
- 
+
 
   @media screen and (max-width: 575px) {
     svg#rocket-smoke {
@@ -330,26 +331,27 @@
     </a>
 </div> -->
 
-<nav class="navbar navbar-expand-lg bg-body-white border-bottom">
-  <div class="container-fluid">
-    <h2 class="fw-light py-0 px-4">El aroma mágico</h2>
+<nav class="navbar navbar-expand-lg bg-body-white">
+  <div class="container-fluid d-inline-block px-5 ">
+    <h2 class="fw-light py-0  pb-1 border-bottom">El aroma mágico</h2>
+    <div class="image-body"></div>
+    <hr>
   </div>
 </nav>
 
-  <div  role="main"> 
+
+<div role="main">
   <div class="container-fluid p-5 pt-3">
-    <div class="image-body"></div>
     <router-outlet></router-outlet>
   </div>
 
-  
 
   <!-- Footer -->
   <footer class="justify-content-center">
-      Contact us: +57 3102105253 - info@elaromamagico.com - @elaromamagico.com
+    Contact us: +57 3102105253 - info@elaromamagico.com - @elaromamagico.com
   </footer>
 
- 
+
 </div>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
